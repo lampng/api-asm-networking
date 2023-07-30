@@ -1,0 +1,1 @@
+bcrypt bcryptjs body-parser cloudinary colors connect-mongodb-session console-success cors dotenv express express-handlebars express-session express-unless jsonwebtoken method-override mongoose mongoose-slug-generator mongoose-unique-validator multer nodemon passport passport-local passport-local-mongoose path
