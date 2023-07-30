@@ -22,12 +22,16 @@ const userSchema = mongoose.Schema({
         },
         role: {
             type: String,
-            require: true
+            require: false
         },
         avatar:{
             type: String,
-            require: true 
-        }
+            require: false 
+        },
+        cloudinary_id: {
+            type: String,
+            require: false
+          }
     },  {timestamps: true,});
 
     const user = mongoose.model('user',userSchema);
